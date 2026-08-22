@@ -9,4 +9,9 @@ int main(){
         cout<<"Enter the value of ",cout<<i+1,cout<<":";
         cin>>arr[i];
     }
+    for(int i=0;i<n;i++){
+        if(arr[i]<35){
+            cout<<i+1,cout<<" ";
+        }
+    }
 }
